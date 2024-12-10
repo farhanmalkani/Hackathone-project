@@ -1,0 +1,100 @@
+/* Generale Styling */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 160, 147);
+    margin: 0;
+    padding: 160px;
+}
+
+.resume-container {
+    display: flex;
+    background-color:white;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+/* Left Section Styling */
+
+.left-section {
+    background-color: #6e2121;
+    color: white;
+    padding: 40px;
+    width: 20%;
+    text-align: center;
+    margin-right: 20px;
+    border-right: 4px solid #e63947;
+}
+
+.Profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 23px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 17px;
+    padding: 3px;
+    margin: 20px 0 15px;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(13, 27, 19);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+
+ul li {
+    margin: 1px 0;
+}
+
+/*Right-Section */
+
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* body section */
+.right section{
+    width: 80%;
+    line-height: 20px;
+    text-align: justify;
+}
+#Certification ul li{
+    list-style: none;
+    line-height: 25px;  
+    margin-left: -60px;
+    width: 200px;
+    text-align: start;  
+}
+#Toggle skills{
+    margin-bottom: 20px;
+}
